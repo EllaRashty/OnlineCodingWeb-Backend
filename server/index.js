@@ -11,7 +11,7 @@ const server = http.createServer(app);
 // Socket.io server instance.
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "http://onlinecodingweb-frontend-production.up.railway.app",
     methods: ["GET", "POST"],
   },
 });
